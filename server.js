@@ -8,7 +8,6 @@ const cors = require("cors");
 
 require('dotenv').config();
 
-const dbMongo = mongoose.connection;
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -72,4 +71,3 @@ const post1 = {
 const port = process.env.PORT || 8626;
 app.listen(port, () => console.log(`LISTENING ON PORT ${port}`));
 console.log('all is good');
-dbMongo.on('error', console.error.bind(console, 'MongoDB connection error:'));
