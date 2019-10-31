@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import Post from "../../components/Post/Post.js";
+// import React, { Component } from "react";
+// // import MainPagePostList from "src/components/MainPagePostList/MainPagePostList.js";
+// //
+// //
+// //
+// // class MainPage extends Component {
+// //     render() {
+// //         return (
+// //             <div>
+// //                 <MainPagePostList />
+// //             </div>
+// //         );
+// //     }
+// // }
 
-
-
-class MainPage extends Component {
-    render() {
-        return (
-            <div>
-                <Post />
-            </div>
-        );
-    }
-}
-
-export default MainPage;
+// export default MainPage;
